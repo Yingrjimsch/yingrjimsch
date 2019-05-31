@@ -1,0 +1,39 @@
+.title {
+    font-size: 15vw;
+    font-family: Eighties;
+    animation: titleAnimation 2s steps(60, end);
+    width: 100%; 
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 2s ease-out;
+}
+
+@keyframes titleAnimation { 
+    from { width: 0%; } 
+}
+
+.titleAnimation {
+    font-size: 30vw;
+    transform: rotate(720deg);
+    color: transparent;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #29094f;
+    color: #d26af2;
+    overflow: hidden;
+}
+@font-face {
+    font-family: "Eighties";
+    src: url("assets/fonts/ZX80.ttf");
+}

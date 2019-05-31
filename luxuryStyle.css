@@ -1,0 +1,42 @@
+.title {
+    font-size: 15vw;
+    font-family: Ruritania;
+    animation: titleAnimation 2s steps(60, end);
+    width: 100%; 
+    overflow: hidden;
+    /*white-space: nowrap;*/
+    /*transition: color 1s ease-out;
+    margin: 0;
+    */
+    cursor: pointer;
+    transition: all 2s ease-out;
+}
+
+@keyframes titleAnimation { 
+    from { width: 0%; } 
+}
+
+.titleAnimation {
+    font-size: 30vw;
+    color: transparent;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: silver;
+    overflow: hidden;
+}
+@font-face {
+    font-family: "Ruritania";
+    src: url("assets/fonts/Ruritania-Outline.ttf");
+}
