@@ -1,4 +1,8 @@
-let indexList = ['indexLuxury.html', 'indexEighties.html'];
+if (/*@cc_on!@*/false || !!document.documentMode) {
+    document.location.href = 'ie.html'
+}
+
+let indexList = ['indexLuxury.html', 'indexEighties.html', 'indexGaming2D.html'];
 
 function luxuryTitleAnimation() {
     $('.title').toggleClass('titleAnimation');
