@@ -4,10 +4,10 @@ if (/*@cc_on!@*/false || !!document.documentMode) {
 
 let indexList = ['indexLuxury.html', 'indexEighties.html', 'indexGaming2D.html'];
 
-function luxuryTitleAnimation() {
+function redirectAfterAnimation() {
     $('.title').toggleClass('titleAnimation');
     setTimeout(function() {
-        document.location.href = '';
+        document.location.href = 'index.html';
     }, 2000);
 }
 
