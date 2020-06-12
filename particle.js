@@ -12,7 +12,9 @@ class Particle {
     }
 
     // creation of a particle.
-    createParticle() {
+    createParticle(particles) {
+        this.joinParticles(particles);
+        this.moveParticle();
         noStroke();
         this.joins = this.joins * 25 >= 100 ? 1 : this.joins * 25 / 100;
         var color = 'rgba(173, 199, 252,' + this.joins + ')';
@@ -42,5 +44,12 @@ class Particle {
                 line(this.x, this.y, element.x, element.y);
             }
         });
+    }
+
+    intersects(otherObject) {
+        if(this.r + otherObject.r < dist(this.x, this.y, otherObject.x, otherObject.y)) {
+            return false;
+        }
+        return true;
     }
 }
