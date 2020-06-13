@@ -1,14 +1,17 @@
+const welcome = 'Welcome, enter my brain...';
+const ts = 36;
+const fr = 60;
+const tf = 'Impact';
+
 let particles = [];
 let stars = [];
-const welcome = 'Welcome, enter my brain...';
 let slicer = 0;
 let imageSize;
 let imageClicked = false;
 let divisionFactor = 7;
 let zoom = true;
-const ts = 36;
-const fr = 60;
-const tf = 'Impact';
+let rotationAngle = 0;
+
 
 function preload() {
   img = loadImage('frame-1.gif');
@@ -64,7 +67,7 @@ function draw() {
   imageSize = horizontallyOrVertically()/divisionFactor;
   image(img, 0, 0, imageSize, imageSize);
   if (!imageClicked) {
-    text(welcome.slice(0, slicer), 0, -imageSize/2-imageSize*.5);
+    text(welcome.slice(0, slicer), 0, -imageSize/2-imageSize*.3);
   }
   if (frameCount % 5 === 0 && slicer <= welcome.length) {
     slicer++;
@@ -82,18 +85,29 @@ function onImageClick() {
     zoom = false;
   }
   else if (divisionFactor + .2 > 7 && !zoom) {
-    rotate(0);
+    rotationAngle = 0;
     divisionFactor = 7;
     zoom = true;
     imageClicked = false;
+    return;
   }
   resizeImage();
   // Rotation with frameCount not optimal
-  rotate(frameCount);
+  rotate(rotationAngle);
 }
 
 function resizeImage() {
-  zoom ? divisionFactor -=.2 : divisionFactor += .2
+  zoom ? zoomIn() : zoomOut()
+}
+
+function zoomIn() {
+  rotationAngle++;
+  divisionFactor -= .2;
+}
+
+function zoomOut() {
+  rotationAngle--;
+  divisionFactor += .2
 }
 
 function horizontallyOrVertically() {
