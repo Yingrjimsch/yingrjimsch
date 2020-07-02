@@ -7,6 +7,8 @@ let imageSize;
 let imageClicked = false;
 let divisionFactor = 7;
 let zoom = true;
+let rotationValue = 0;
+let tw = 0;
 const ts = 36;
 const fr = 60;
 const tf = 'Impact';
@@ -65,10 +67,14 @@ function draw() {
   imageSize = horizontallyOrVertically()/divisionFactor;
   image(img, 0, 0, imageSize, imageSize);
   if (!imageClicked) {
+    tw = textWidth(welcome.slice(0, slicer));
     text(welcome.slice(0, slicer), 0, -imageSize/2-imageSize*.5);
   }
-  if (frameCount % 5 === 0 && slicer <= welcome.length) {
+  if (frameCount % 10 === 0 && slicer <= welcome.length) {
     slicer++;
+  }
+  if(frameCount % 10 !== 0) {
+    rect(tw/2+1, -imageSize/2-imageSize*.5 - 20 , 6, ts+2);
   }
 }
 
@@ -90,7 +96,9 @@ function onImageClick() {
   }
   resizeImage();
   console.log(frameCount);
-  rotate(frameCount);
+  rotationValue += .35;
+  console.log(rotationValue);
+  rotate(rotationValue);
 }
 
 function resizeImage() {
