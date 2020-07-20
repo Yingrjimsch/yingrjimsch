@@ -19,4 +19,11 @@ class Star {
         fill(color);
         circle(this.x, this.y, this.r);
     }
+    
+    intersects(otherObject) {
+        if(this.r + otherObject.r < dist(this.x, this.y, otherObject.x, otherObject.y)) {
+            return false;
+        }
+        return true;
+    }
 }
