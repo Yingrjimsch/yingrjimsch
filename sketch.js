@@ -1,8 +1,3 @@
-const welcome = 'Welcome, enter my brain...';
-const ts = 36;
-const fr = 60;
-const tf = 'Impact';
-
 let particles = [];
 let stars = [];
 let slicer = 0;
@@ -10,11 +5,15 @@ let imageSize;
 let imageClicked = false;
 let divisionFactor = 7;
 let zoom = true;
-let rotationAngle = 0;
+let rotationValue = 0;
+const ts = 36;
+let tw = 0;
+const fr = 60;
+const tf = 'Impact';
 
 
 function preload() {
-  img = loadImage('frame-1.gif');
+  img = loadImage('icon.png');
 }
 
 function setup() {
@@ -67,10 +66,14 @@ function draw() {
   imageSize = horizontallyOrVertically()/divisionFactor;
   image(img, 0, 0, imageSize, imageSize);
   if (!imageClicked) {
-    text(welcome.slice(0, slicer), 0, -imageSize/2-imageSize*.3);
+    tw = textWidth(welcome.slice(0, slicer));
+    text(welcome.slice(0, slicer), 0, -imageSize/2-imageSize*.2);
   }
-  if (frameCount % 5 === 0 && slicer <= welcome.length) {
+  if (frameCount % 6 === 0 && slicer <= welcome.length) {
     slicer++;
+  }
+  if(frameCount % 6 !== 0 && !imageClicked) {
+    rect(tw/2+1, -imageSize/2-imageSize*.2 - 20 , 6, ts+2);
   }
 }
 
@@ -92,22 +95,14 @@ function onImageClick() {
     return;
   }
   resizeImage();
-  // Rotation with frameCount not optimal
-  rotate(rotationAngle);
+  console.log(frameCount);
+  console.log(rotationValue);
+  rotationValue += .35;
+  rotate(rotationValue);
 }
 
 function resizeImage() {
   zoom ? zoomIn() : zoomOut()
-}
-
-function zoomIn() {
-  rotationAngle++;
-  divisionFactor -= .2;
-}
-
-function zoomOut() {
-  rotationAngle--;
-  divisionFactor += .2
 }
 
 function horizontallyOrVertically() {
