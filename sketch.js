@@ -1,16 +1,17 @@
 let particles = [];
 let stars = [];
+let fc;
+const welcome = 'Enter my brain';
 let slicer = 0;
 let imageSize;
 let imageClicked = false;
 let divisionFactor = 7;
 let zoom = true;
 let rotationValue = 0;
-const ts = 36;
 let tw = 0;
+const ts = 36;
 const fr = 60;
 const tf = 'Impact';
-
 
 function preload() {
   img = loadImage('icon.png');
@@ -41,6 +42,7 @@ function styleCanvas() {
   textAlign(CENTER, CENTER);
   textSize(ts);
   frameRate(fr);
+  cursor('crosshair')
 }
 
 function windowResized() {
@@ -88,21 +90,18 @@ function onImageClick() {
     zoom = false;
   }
   else if (divisionFactor + .2 > 7 && !zoom) {
-    rotationAngle = 0;
+    rotate(0);
     divisionFactor = 7;
     zoom = true;
     imageClicked = false;
-    return;
   }
   resizeImage();
-  console.log(frameCount);
-  console.log(rotationValue);
   rotationValue += .35;
   rotate(rotationValue);
 }
 
 function resizeImage() {
-  zoom ? zoomIn() : zoomOut()
+  zoom ? divisionFactor -=.2 : divisionFactor += .2
 }
 
 function horizontallyOrVertically() {
