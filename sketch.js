@@ -1,6 +1,5 @@
 let particles = [];
 let stars = [];
-let fc;
 const welcome = 'Enter my brain';
 let slicer = 0;
 let imageSize;
@@ -14,10 +13,10 @@ const fr = 60;
 const tf = 'Impact';
 
 function preload() {
-  img = loadImage('icon.png');
 }
 
 function setup() {
+  img = loadImage('icon.png');
   createCanvas(windowWidth, windowHeight);
   createParticles();
   createStars();
@@ -42,7 +41,6 @@ function styleCanvas() {
   textAlign(CENTER, CENTER);
   textSize(ts);
   frameRate(fr);
-  cursor('crosshair')
 }
 
 function windowResized() {

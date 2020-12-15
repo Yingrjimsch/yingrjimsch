@@ -13,10 +13,11 @@ class Particle {
 
     // creation of a particle.
     createParticle(particles) {
-        this.joinParticles(particles);
+        this.joinParticles();
         this.moveParticle();
         noStroke();
         this.joins = this.joins * 25 >= 100 ? 1 : this.joins * 25 / 100;
+        console.log(this.joins);
         var color = 'rgba(173, 199, 252,' + this.joins + ')';
         fill(color);
         circle(this.x, this.y, this.r);
@@ -34,7 +35,7 @@ class Particle {
 
     // this function creates the connections(lines)
     // between particles which are less than a certain distance apart
-    joinParticles(paraticles) {
+    joinParticles() {
         this.joins = 0;
         particles.forEach(element => {
             let dis = dist(this.x, this.y, element.x, element.y);
