@@ -1,6 +1,7 @@
 let particles = [];
 let stars = [];
 const welcome = 'Enter my brain';
+let showRectAfterWelcome = true;
 let slicer = 0;
 let imageSize;
 let imageClicked = false;
@@ -72,7 +73,10 @@ function draw() {
   if (frameCount % 6 === 0 && slicer <= welcome.length) {
     slicer++;
   }
-  if(frameCount % 6 !== 0 && !imageClicked) {
+  if(frameCount % 30 === 0) {
+    showRectAfterWelcome = !showRectAfterWelcome;
+  }
+  if(showRectAfterWelcome && !imageClicked) {
     rect(tw/2+1, -imageSize/2-imageSize*.2 - 20 , 6, ts+2);
   }
 }

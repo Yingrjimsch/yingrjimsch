@@ -17,7 +17,7 @@ class Particle {
         this.moveParticle();
         noStroke();
         this.joins = this.joins * 25 >= 100 ? 1 : this.joins * 25 / 100;
-        console.log(this.joins);
+        //console.log(this.joins);
         var color = 'rgba(173, 199, 252,' + this.joins + ')';
         fill(color);
         circle(this.x, this.y, this.r);
