@@ -2,124 +2,50 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="svg4776"
-   sodipodi:docname="Mail-Icon-White-on-Black.svg"
-   viewBox="0 0 300 300"
+   width="159.97214mm"
+   height="160.09384mm"
+   viewBox="0 0 159.97214 160.09384"
    version="1.1"
-   inkscape:version="0.48+devel_64bit r13443"
-   width="100%"
-   height="100%">
-  <defs
-     id="defs16" />
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="mail.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="base"
-     bordercolor="#666666"
-     inkscape:pageshadow="2"
-     inkscape:window-y="-8"
+     id="namedview7"
      pagecolor="#ffffff"
-     inkscape:window-height="1177"
-     inkscape:window-maximized="1"
-     inkscape:zoom="2.8"
-     inkscape:window-x="-8"
-     showgrid="false"
+     bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:current-layer="layer1"
-     inkscape:cx="115.45615"
-     inkscape:cy="142.1276"
-     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
-     inkscape:document-units="px" />
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="298.9743"
+     inkscape:cy="281.02023"
+     inkscape:window-width="2880"
+     inkscape:window-height="1706"
+     inkscape:window-x="-2891"
+     inkscape:window-y="-196"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
   <g
-     id="layer1"
-     inkscape:label="Layer 1"
+     inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     transform="translate(-231.54,-375.82)">
-    <ellipse
-       id="path3794"
-       style="color:#000000;fill:#000000"
-       cx="381.54001"
-       cy="525.82001"
-       rx="143.45773"
-       ry="143.45013" />
-    <g
-       id="layer1-7"
-       inkscape:label="Calque 1"
-       transform="matrix(3.8189326,0,0,3.8189326,-1398.1391,-1597.4564)"
-       style="fill:#ffffff">
-      <g
-         id="g6564"
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="C:\Users\lguyot\Desktop\icon-email.png"
-         transform="translate(-560.19,271.89)"
-         style="fill:#ffffff">
-        <path
-           sodipodi:type="inkscape:offset"
-           inkscape:radius="0.39676574"
-           inkscape:original="M 1005.1191 267.86133 C 1004.3037 267.86127 1003.6425 268.5206 1003.6426 269.33594 L 1003.6426 298.85547 C 1003.6423 299.67103 1004.3035 300.33405 1005.1191 300.33398 L 1047.291 300.33398 C 1048.1066 300.33405 1048.768 299.67103 1048.7676 298.85547 L 1048.7676 269.33594 C 1048.7676 268.5206 1048.1064 267.86127 1047.291 267.86133 L 1005.1191 267.86133 z M 1009.0527 271.55273 L 1043.3438 271.55273 L 1026.2012 286.53125 L 1009.0527 271.55273 z M 1045.8145 273.31445 L 1045.8145 295.83594 L 1033.0547 284.46094 L 1045.8145 273.31445 z M 1006.5957 273.32617 L 1019.4043 284.51758 L 1006.5957 295.9375 L 1006.5957 273.32617 z M 1030.8145 286.41797 L 1043.0449 297.32227 L 1009.4805 297.32227 L 1021.6465 286.47656 L 1025.2266 289.60547 C 1025.7827 290.09097 1026.6118 290.09097 1027.168 289.60547 L 1030.8145 286.41797 z "
-           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.9519999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           id="path4323"
-           d="m 1005.1191,267.46484 c -1.0293,-7e-5 -1.8731,0.84123 -1.873,1.8711 l 0,29.51953 c -4e-4,1.03008 0.8424,1.87509 1.873,1.875 l 42.1719,0 c 1.0307,9e-5 1.8736,-0.84482 1.8731,-1.875 l 0,-29.51953 c 0,-1.02985 -0.8438,-1.87117 -1.8731,-1.8711 l -42.1719,0 z m 4.9922,4.48438 32.1758,0 -16.0859,14.05469 -16.0899,-14.05469 z m 35.3067,2.23828 0,20.76367 -11.7637,-10.48633 11.7637,-10.27734 z m -38.4258,0.0117 11.8125,10.32226 -11.8125,10.53125 0,-20.85351 z m 23.8203,12.74805 11.1914,9.97851 -31.4824,0 11.1269,-9.91992 3.3164,2.89844 c 0.7033,0.61399 1.7615,0.61395 2.4649,0 l 3.3828,-2.95703 z" />
-      </g>
-    </g>
+     id="layer1"
+     transform="translate(-25.8553,-73.944286)">
+    <path
+       style="fill:#000000;stroke-width:0.168024"
+       d="m 100.62214,233.87392 c -23.283395,-1.54052 -44.532421,-13.05556 -58.755246,-31.84 -11.014839,-14.54757 -16.770793,-33.1274 -15.931063,-51.42439 0.661991,-14.42419 4.771528,-27.52354 12.433129,-39.63121 4.974751,-7.86163 11.903915,-15.331129 19.612253,-21.141609 8.336313,-6.28386 18.285206,-10.98931 28.694928,-13.57165 9.51538,-2.36047 20.005709,-2.94118 29.740269,-1.64632 24.83272,3.30317 46.48501,17.86366 59.06604,39.720059 1.3754,2.38942 3.76721,7.34479 4.78493,9.91342 2.609,6.58495 4.345,13.54836 5.2361,21.00301 0.43187,3.61293 0.43198,13.85999 1.7e-4,17.47451 -1.15985,9.70891 -3.60918,18.09664 -7.75231,26.5478 -10.26632,20.94127 -29.31205,36.45021 -51.88305,42.24838 -8.03599,2.06433 -16.97223,2.89544 -25.24615,2.348 z m 52.42724,-43.65059 c 0.83332,-0.37855 1.60897,-1.13674 2.0298,-1.9841 0.30986,-0.62393 0.3188,-1.5869 0.3188,-34.33076 v -33.68883 l -0.46581,-0.79242 c -0.56784,-0.96599 -1.36059,-1.59438 -2.40972,-1.91013 -1.21412,-0.36539 -92.020168,-0.3563 -93.245744,0.009 -1.106217,0.33004 -2.045163,1.13842 -2.528885,2.17724 l -0.396744,0.85202 0.0057,33.35278 c 0.0047,27.42719 0.0457,33.46479 0.230712,33.98322 0.352296,0.98719 1.018528,1.73303 1.972876,2.2086 l 0.87781,0.43743 46.467675,-0.004 c 44.63943,-0.004 46.49426,-0.0158 47.14349,-0.3107 z m -83.399679,-7.89525 c 0.0308,-0.0795 4.743879,-5.42541 10.4735,-11.87987 5.729622,-6.45447 10.544757,-11.89014 10.7003,-12.07927 0.276694,-0.33645 0.382004,-0.24556 4.872698,4.20541 2.524441,2.50211 4.933031,4.74533 5.352421,4.98494 1.57277,0.89858 2.77375,1.193 4.86628,1.193 1.53092,0 2.14168,-0.0733 2.94042,-0.35286 2.00533,-0.70189 2.56219,-1.14756 7.26345,-5.81318 2.51628,-2.4972 4.60382,-4.50725 4.63898,-4.46677 0.0352,0.0405 4.87586,5.49911 10.75712,12.13027 5.88127,6.63117 10.69322,12.09405 10.69322,12.13974 0,0.0457 -16.33823,0.0831 -36.30719,0.0831 -20.19262,0 -36.282349,-0.0641 -36.251199,-0.14448 z m -5.068727,-28.80779 v -22.1353 l 10.291475,10.35456 c 5.660311,5.69501 10.313148,10.41195 10.339636,10.48209 0.03483,0.0922 -18.529086,21.19277 -20.400352,23.18791 -0.19574,0.2087 -0.230759,-3.11313 -0.230759,-21.88926 z m 72.370636,10.5552 c -5.6161,-6.32946 -10.24312,-11.60331 -10.28229,-11.71968 -0.0392,-0.11638 4.57331,-4.89946 10.24995,-10.62909 l 10.32117,-10.41749 0.004,22.13717 c 0.002,12.17545 -0.0152,22.13718 -0.0389,22.13718 -0.0237,0 -4.63805,-5.17864 -10.25415,-11.50809 z m -33.54713,-5.25231 c -0.99541,-0.99345 -8.865985,-8.89478 -17.490149,-17.55852 L 70.234032,125.5124 h 35.692698 35.69268 l -17.55791,17.55852 c -17.19664,17.19723 -17.57117,17.55851 -18.20254,17.55851 -0.59528,0 -0.7832,-0.13829 -2.45448,-1.80625 z"
+       id="path872" />
   </g>
-  <metadata
-     id="metadata14">
-    <rdf:RDF>
-      <cc:Work>
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <cc:license
-           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
-        <dc:publisher>
-          <cc:Agent
-             rdf:about="http://openclipart.org/">
-            <dc:title>Rygle</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:title></dc:title>
-        <dc:date>2015-03-29</dc:date>
-        <dc:description />
-        <dc:source></dc:source>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Rygle</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:subject>
-          <rdf:Bag>
-            <rdf:li>icon</rdf:li>
-            <rdf:li>mail</rdf:li>
-            <rdf:li>snail</rdf:li>
-            <rdf:li>communication</rdf:li>
-            <rdf:li>communicate</rdf:li>
-            <rdf:li>address</rdf:li>
-            <rdf:li>envelope</rdf:li>
-          </rdf:Bag>
-        </dc:subject>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>Public Domain</dc:title>
-          </cc:Agent>
-        </dc:rights>
-      </cc:Work>
-      <cc:License
-         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Reproduction" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#Distribution" />
-        <cc:permits
-           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
-      </cc:License>
-    </rdf:RDF>
-  </metadata>
 </svg>
