@@ -35,7 +35,7 @@ li {
     margin: 20px;
 }
 
-a {
+ul > li > a {
     text-decoration: line-through;
     z-index: inherit;
     transition: 0.5s;
@@ -48,8 +48,7 @@ a {
     cursor: pointer;
 }
 
-a::before {
-    text-decoration: line-through;
+ul > li > a::before {
     z-index: inherit;
     color: #a502db;
     content: attr(data-text);
@@ -61,7 +60,7 @@ a::before {
     transition: opacity 0.5s;
 }
 
-a:hover::before {
+ul > li > a:hover::before {
     opacity: 100%;
 }
 
@@ -493,8 +492,8 @@ svg:hover {
 }
 
 
-a:focus,
-a:hover {
+ul > li > a:focus,
+ul > li > a:hover {
     border-radius: 5px;
     box-shadow: 0 0 5px #a502db, 0 0 25px #a502db, 0 0 50px #a502db,
       0 0 100px #a502db;
