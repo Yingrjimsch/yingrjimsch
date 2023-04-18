@@ -1,0 +1,17 @@
+.social-links > a > svg {
+    fill: var(--primaryFont);
+    width: 24px;
+    cursor: pointer;
+}
+
+.social-links > a > svg:hover {
+    fill: var(--neonViolet);
+    border-radius: 15px;
+    box-shadow: 0 0 5px var(--neonViolet), 0 0 25px var(--neonViolet), 0 0 50px var(--neonViolet),
+      0 0 100px var(--neonViolet);
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}

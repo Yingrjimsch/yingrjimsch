@@ -1,0 +1,79 @@
+:root {
+    --bg: #191919;
+    --neonViolet: #a502db;
+    --neonGreen: #279b21;
+    --primaryFont: #c0c0c0;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg);
+    background-image: linear-gradient(315deg, var(--bg) 0%, var(--black) 70%);
+    margin: 0;
+    z-index: -2;
+    position: absolute;
+    overflow: hidden;
+}
+
+#background {
+    color: var(--bg);
+    font-size: 2vh;
+    font-family: sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+    width: 100%;
+    user-select: none;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    text-align: justify;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: KARNIVBL;
+    src: url('assets/fonts/KARNIVBL.ttf');
+}
+
+@font-face {
+    font-family: KARNIVOB;
+    src: url('assets/fonts/KARNIVOB.ttf');
+}
+
+nav > ul > li > a {
+    z-index: inherit;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-family: KARNIVOB;
+    color: var(--primaryFont);
+    font-weight: bolder;
+    cursor: pointer;
+    user-select: none;
+}
+
+nav > ul > li > a::before {
+    z-index: inherit;
+    color: var(--neonViolet);
+    content: attr(data-text);
+    vertical-align: middle;
+    text-transform: uppercase;
+    position: absolute;
+    opacity: 0%;
+    font-family: KARNIVBL;
+    transition: opacity 0.5s;
+}
+
+nav > ul > li > a:focus::before,
+nav > ul > li > a:hover::before {
+    opacity: 100%;
+}
+
+nav > ul > li > a:focus,
+nav > ul > li > a:hover {
+    border-radius: 5px;
+    color: var(--black);
+}
