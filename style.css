@@ -27,7 +27,7 @@ nav > ul > li {
 nav > ul > li > a {
     text-decoration: line-through;
     padding: 10px 20px;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 
 @media (orientation: landscape) {
